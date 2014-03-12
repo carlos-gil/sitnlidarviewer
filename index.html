@@ -1,169 +1,33 @@
-﻿<html>
-	<head>
-		<meta content="text/html; charset=ISO-8859-15"/>
-		<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<title>SITN: LiDAR Data visualizer </title>
-		<meta name="description" content="Points lidar avec camera  " />
-		<meta name="author" content="GIL/SITN" />
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-		<script type="text/javascript" src="/lidarviewer/js/lib/jquery/jquery-1.11.0.js"></script>
-		<script type="text/javascript" src="/lidarviewer/js/lib/xbps/xbps.js" ></script>
-		<script type="text/javascript" src="/lidarviewer/js/lib/xbps/libs/orbitcam.js" ></script>
-		<script type="text/javascript">
-			var ps, pointCloud;
-			var yRot = 0.0;
-			var zoomed = -100;
-			var str3dcloudfile = "data/neuch_clip.asc";
-			const KEY_ESC = 27;
-			// Create an orbit camera halfway between the closest and farthest point
-			var cam = new OrbitCam({
-				closest : 10,
-				farthest : 150,
-				distance : 50
-			});
-			var rotationStartCoords = [0, 0];
-			var isDragging = false;
-
-			$(document).ready(function() {
-				//init code here
-				ps = new PointStream();
-				ps.setup(document.getElementById("canvas"));
-				pointCloud = ps.load(str3dcloudfile);
-
-				ps.pointSize(5);
-				ps.onRender = render;
-				ps.onMouseScroll = zoom;
-				ps.onMousePressed = mousePressed;
-				ps.onMouseReleased = mouseReleased;
-				ps.onKeyDown = keyDown;
-				/*
-				 ps.onMouseScroll = function(amt) {
-				 zoomed += amt * 2 * 1;
-				 };
-				 */
-				DisplayWebGLSupport();
-			});
-			///end of document ready
-
-			function isWebGLSupported() {
-				var supported = false;
-
-				try {
-					var ctx = document.createElement("canvas").getContext("experimental-webgl");
-					supported = ctx ? true : false;
-				} catch(e) {
-					supported = false;
-				}
-				return supported;
-			}
-
-			function DisplayWebGLSupport() {
-				var msgTag = document.getElementById("isWebGLSupported");
-
-				if (!isWebGLSupported()) {
-					msgTag.style.backgroundColor = "#CC3333";
-					msgTag.innerHTML = "Your browser does not support WebGL<br />";
-				} else {
-					msgTag.style.backgroundColor = "#00CC00";
-					msgTag.innerHTML = "Your browser supports WebGL<br />";
-				}
-			}
-
-			function zoom(amt) {
-				//var invert = document.getElementById('invertScroll').checked ? -1 : 1;
-
-				if (amt < 0) {
-					cam.goCloser(-amt);
-				} else {
-					cam.goFarther(amt);
-				}
-			}
-
-			function mousePressed() {
-				rotationStartCoords[0] = ps.mouseX;
-				rotationStartCoords[1] = ps.mouseY;
-				isDragging = true;
-			}
-
-			function mouseReleased() {
-				isDragging = false;
-			}
-
-			function keyDown() {
-				if (ps.key == KEY_ESC) {
-					ps.stop(str3dcloudfile);
-				}
-			}
-
-			function render() {
-
-				if (isDragging === true) {
-					// how much was the cursor moved compared to last time
-					// this function was called?
-					var deltaX = ps.mouseX - rotationStartCoords[0];
-					var deltaY = ps.mouseY - rotationStartCoords[1];
-
-					// now that the camera was updated, reset where the
-					// rotation will start for the next time this function is called.
-					rotationStartCoords = [ps.mouseX, ps.mouseY];
-
-					cam.yaw(-deltaX * 0.015);
-					cam.pitch(deltaY * 0.015);
-				}
-
-				var c = pointCloud.getCenter();
-
-				ps.multMatrix(M4x4.makeLookAt(cam.position, cam.direction, cam.up));
-				ps.translate(-cam.position[0] - c[0], -cam.position[1] - c[1], -cam.position[2] - c[2]);
-
-				//ps.translate(-c[0], -c[1], -c[2]);
-				//ps.translate(0, 0, zoomed);
-				//ps.rotate(10, 0, 0);
-				ps.clear();
-				ps.render(pointCloud);
-				var status = document.getElementById('fileStatus');
-				status.innerHTML = "";
-				switch(pointCloud.status) {
-					case 1:
-						status.innerHTML = "status: Chargement démarré";
-						break;
-					case 2:
-						status.innerHTML = "status: Chargement en cours";
-						break;
-					case 3:
-						status.innerHTML = "status: Chargement du fichier terminé";
-						break;
-					default:
-						break;
-				}
-
-				var fps = Math.floor(ps.frameRate);
-				if (fps < 1) {
-					fps = "< 1";
-				}
-
-				status.innerHTML += "<br />" + pointCloud.getNumPoints() + " points @ " + fps + " FPS";
-
-			}
-
-		</script>
+<html lang="en">
+	<head>SITN LidarViewer web application</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <title>HEIG-VD / SITN LiDAR Point Cloud 3D Visualization application</title>
+        <!-- Style sheets -->
+        <link rel="stylesheet" href="/lidaviewer/css/style.css">
+                
+        <!-- Javascript librairies -->
+		<script type="text/javascript" src="/lidaviewer/js/lib/threejs/build/three.js"></script>
+        <!-- <script type="text/javascript" src="/lidaviewer/js/lib/jquery/jquery-1.11.0.js"></script> -->
+		<script src="/lidaviewer/js/lib/detector/Detector.js"></script>
+		<script src="/lidaviewer/js/pclidarviewer.js"></script>
 	</head>
 	<body>
-		<noscript>
-			Cette page ne fonctionne pas du tout sans javascript !
-			<br/>
-			<br/>
-			<br/>
-		</noscript>
-		<canvas id="canvas" style="border: 1px solid black;" width="800" height="600">
-			3d webgl
-		</canvas>
-<br/>
-		<b><span id="isWebGLSupported">webgl support </span></b>
-		<span id="fileStatus">status</span>
-		<br />
-		<span id="debug">&nbsp;</span>
-		<br />
+        <!-- The div element containing the Thee scene -->
+		<div id="container"></div>
+        
+		<script>
+        
+            // Check if the browser does support WebGL
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+            
+            // Create instance if our viewer
+            myViewer = new PCLVIEWER.Viewer('/lidaviewer/data/demo.xyz');
+            
+            // Start it !
+            myViewer.startViewer();
+                        
+		</script>
 
 	</body>
 </html>
