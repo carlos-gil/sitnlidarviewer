@@ -1,123 +1,413 @@
-2014-03-06 11:21:17|   0.0|  0.0|INFORM|FME 2013 SP1 (20130319 - Build 13448 - WIN32)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME_HOME is 'C:\apps\FME\'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Desktop Professional Edition (floating)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Permanent License.
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Machine host name is: WSSGRF030
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|START - ProcessID: 6976, peak process memory usage: 34088 kB, current process memory usage: 34088 kB
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\apps\FME\fme.exe' `C:/Projets/LiDARViewer/fme\wb-xlate-1394101276970_1492' `LOG_STANDARDOUT' `YES' `LogCount' `C:\Users\Monodo\AppData\Local\Temp\wb-xlate-counts-1394101276971_1492'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for formats are : C:\Users\Monodo\Documents\FME\Formats;C:\apps\FME\datasources
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for transformers are : C:\Users\Monodo\Documents\FME\Transformers;C:\apps\FME\transformers;C:\Users\Monodo\AppData\Roaming\Safe Software\FME\FME Store\Transformers
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for coordinate systems are : C:\Users\Monodo\Documents\FME\CoordinateSystems
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for coordinate system exceptions are : C:\Users\Monodo\Documents\FME\CoordinateSystemExceptions
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for coordinate system grid overrides are : C:\Users\Monodo\Documents\FME\CoordinateSystemGridOverrides
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for CS-MAP transformation exceptions are : C:\Users\Monodo\Documents\FME\CsmapTransformationExceptions
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Shared directories for transformer categories are : C:\Users\Monodo\Documents\FME\TransformerCategories
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Current working directory is `C:\Projets\LiDARViewer\fme'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Temporary directory is `C:\Users\Monodo\AppData\Local\Temp'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\apps\FME\'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Projets\LiDARViewer\fme/'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'las_shape2las.fmw'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is '2013 SP1'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|System Status: 107032MB of disk space available in the FME temporary directory (C:\Users\Monodo\AppData\Local\Temp\)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|System Status: 3909MB of virtual memory available
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 7 64-bit Service Pack 1 (Build 7601)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Platform: WIN32
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Locale: fr_CH
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - latin I)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Process limit is 4095 MB (out of 8142 MB physical memory and 4095 MB address space)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2895 MB of memory or 3495 MB of address space
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2171 MB of memory and 2621 MB of address space
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME Configuration: Autodetermining optimal maximum number of objects in memory
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding LAS Reader with keyword LAS_1
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SHAPE Reader with keyword SHAPE_1
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Using Multi Reader $Revision: 93943 $ ( $Date: 2012-10-30 14:39:34 -0700 (Tue, 30 Oct 2012) $ ) with keyword `MULTI_READER' to read multiple datasets
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Loaded module 'LAS' from file 'C:\apps\FME\LIDAR_FME.dll'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Using MultiWriter $Revision: 59162 $ ( $Date: 2009-04-07 10:04:59 -0700 (Tue, 07 Apr 2009) $ ) with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\apps\FME\plugins/LogCount_func.dll'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.7 20121025)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file 'C:\apps\FME\plugins/RasterClippingFactory.dll'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.7 20121025)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file 'C:\apps\FME\plugins/SolidIntersectionFactory.dll'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.7 20121025)
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|Loaded module 'PointCloudInterpretation_func' from file 'C:\apps\FME\plugins/PointCloudInterpretation_func.dll'
-2014-03-06 11:21:17|   0.1|  0.0|INFORM|FME API version of module 'PointCloudInterpretation_func' matches current internal version (3.7 20121025)
-2014-03-06 11:21:17|   0.2|  0.0|WARN  |Clipper_Vector(ClippingFactory): MERGE_CLIPPER_ATTRIBUTES is not specified; CLIPPER_ATTR_PREFIX will be ignored
-2014-03-06 11:21:17|   0.2|  0.0|INFORM|Using Shape Reader $Revision: 102018 $ ( $Date: 2013-02-28 14:10:18 -0800 (Thu, 28 Feb 2013) $ ) to read shape files from directory `C:\Projets\LiDARViewer\data/'
-2014-03-06 11:21:17|   0.2|  0.0|INFORM|SHAPE_1 Reader: Using enhanced geometry
-2014-03-06 11:21:17|   0.2|  0.0|INFORM|Shape Reader: Allowing attribute names with mixed case
-2014-03-06 11:21:17|   0.2|  0.0|INFORM|Opened Shape File C:\Projets\LiDARViewer\data\clip_neuch.shp for input
-2014-03-06 11:21:17|   0.2|  0.0|INFORM|Opened DBF File 'C:\Projets\LiDARViewer\data\clip_neuch.dbf' for input
-2014-03-06 11:21:17|   0.2|  0.0|INFORM|DBF File 'C:\Projets\LiDARViewer\data\clip_neuch.dbf' has fields: id number(10,0)
-2014-03-06 11:21:17|   0.4|  0.2|INFORM|The OGC definition of the FME coordinate system '_FME_0' is 'PROJCS["CH1903_LV03",GEOGCS["GCS_CH1903",DATUM["D_CH1903",SPHEROID["Bessel_1841",6377397.155,299.1528128]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.95240555555556],PARAMETER["longitude_of_center",7.439583333333333],PARAMETER["azimuth",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",600000],PARAMETER["false_northing",200000],UNIT["Meter",1]]'
-2014-03-06 11:21:17|   0.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader SHAPE_1[SHAPE] set to `_FME_0' as read from input data
-2014-03-06 11:21:17|   0.4|  0.0|INFORM|Coordinate System `_FME_0' parameters: CS_NAME=`_FME_0' DESC_NM=`CH1903_LV03' DT_NAME=`CH1903/GSB' ESRI_WKT=`PROJCS["CH1903_LV03",GEOGCS["GCS_CH1903",DATUM["D_CH1903",SPHEROID["Bessel_1841",6377397.155,299.1528128]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.95240555555556],PARAMETER["longitude_of_center",7.439583333333333],PARAMETER["azimuth",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",600000],PARAMETER["false_northing",200000],UNIT["Meter",1]]' PARM1=`7.439583333333333' PARM2=`46.95240555555556' PARM3=`90' PROJ=`HOM1XY' SCL_RED=`1.0000000000' UNIT=`METER' X_OFF=`600000' Y_OFF=`200000' 
-2014-03-06 11:21:17|   0.4|  0.0|INFORM|Shape Reader: Bounding box of shapefile `C:\Projets\LiDARViewer\data\CLIP_NEUCH' is: (562000.588499391,204745.112828808),(562306.201183082,205069.280568295)
-2014-03-06 11:21:17|   0.4|  0.0|INFORM|Shape Reader: Bounding box of shapefile(s) selected from directory `C:\Projets\LiDARViewer\data/' is: (562000.588499391,204745.112828808),(562306.201183082,205069.280568295)
-2014-03-06 11:21:17|   0.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 2 features from 2 readers
-2014-03-06 11:21:17|   0.4|  0.0|INFORM|Emptying factory pipeline
-2014-03-06 11:21:17|   0.4|  0.0|STATS |Unexpected Input Remover(TestFactory): Tested 2 input feature(s) -- 2 feature(s) passed and 0 feature(s) failed
-2014-03-06 11:21:17|   0.4|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-03-06 11:21:17|   0.4|  0.0|STATS |Source -> Generic(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
-2014-03-06 11:21:17|   0.4|  0.0|STATS |clip_neuch Feature Counter -1 4(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-03-06 11:21:17|   0.4|  0.0|STATS |LAS Feature Counter -1 5(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-03-06 11:21:17|   0.4|  0.0|STATS |Clipper_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
-2014-03-06 11:21:17|   0.4|  0.0|STATS |Clipper_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-03-06 11:21:17|   0.4|  0.0|STATS |Clipper_ClippeeFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
-2014-03-06 11:21:22|   4.7|  4.2|INFORM|Point Cloud Clipping: Clipped 20620000 of 22656324 points
-2014-03-06 11:21:22|   5.0|  0.4|INFORM|Point Cloud Clipping: Finished clipping point cloud against 1 / 1 clippers
-2014-03-06 11:21:22|   5.3|  0.3|INFORM|Trying to find a DYNAMIC plugin for writer named `LAS'
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|Writer `LAS_2' of type `LAS' using group definition keyword `LAS_2_DEF'
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|LAS writer: Directive '_VERSION' has the value '1.2'
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|LAS writer: Directive '_COMPRESSION' has the value 'No'
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|LAS writer: Directive '_RESCALE_COORDINATES' has the value 'Yes'
-2014-03-06 11:21:22|   5.3|  0.0|INFORM|LAS writer: Writing point cloud with 647730 point(s) to file 'C:\Projets\LiDARViewer\data\1164212.las'
-2014-03-06 11:21:23|   5.7|  0.4|STATS |Clipper_Vector(ClippingFactory): Processed 1 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Clipper_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Clipper_INSIDE Feature Counter -1 9(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-03-06 11:21:23|   5.7|  0.0|STATS |PointCloudColorScaler(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-03-06 11:21:23|   5.7|  0.0|STATS |PointCloudColorScaler_OUTPUT Feature Counter -1 10(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-03-06 11:21:23|   5.7|  0.0|STATS |PointCloudColorScaler_OUTPUT -> NewFeatureType Correlator(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Final Output Feature Type Router(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2014-03-06 11:21:23|   5.7|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|INFORM|Feature output statistics for `LAS' writer using keyword `LAS_2':
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |                               Features Written
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |1164212                                                                      1
-2014-03-06 11:21:23|   5.7|  0.0|STATS |==============================================================================
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Total Features Written                                                       1
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |                            Features Read Summary
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |LAS                                                                          1
-2014-03-06 11:21:23|   5.7|  0.0|STATS |clip_neuch                                                                   1
-2014-03-06 11:21:23|   5.7|  0.0|STATS |==============================================================================
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Total Features Read                                                          2
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |                           Features Written Summary
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|STATS |1164212                                                                      1
-2014-03-06 11:21:23|   5.7|  0.0|STATS |==============================================================================
-2014-03-06 11:21:23|   5.7|  0.0|STATS |Total Features Written                                                       1
-2014-03-06 11:21:23|   5.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2014-03-06 11:21:23|   5.7|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (1 feature(s) output)
-2014-03-06 11:21:23|   5.7|  0.0|INFORM|FME Session Duration: 5.7 seconds. (CPU: 5.0s user, 0.7s system)
-2014-03-06 11:21:23|   5.7|  0.0|INFORM|END - ProcessID: 6976, peak process memory usage: 76268 kB, current process memory usage: 74412 kB
+2014-03-12 11:04:28|   0.1|  0.1|INFORM|FME 2013 SP1 (20130319 - Build 13448 - WIN32)
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME_HOME is 'C:\apps\FME\'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Desktop Professional Edition (floating)
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Permanent License.
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Machine host name is: WSSGRF030
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|START - ProcessID: 5244, peak process memory usage: 33044 kB, current process memory usage: 32992 kB
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\apps\FME\fme.exe' `C:/OSGeo4W/apache/htdocs/lidaviewer/fme\wb-xlate-1394618668383_4276' `LOG_STANDARDOUT' `YES' `LogCount' `C:\Users\Monodo\AppData\Local\Temp\wb-xlate-counts-1394618668385_4276'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for formats are : C:\Users\Monodo\Documents\FME\Formats;C:\apps\FME\datasources
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for transformers are : C:\Users\Monodo\Documents\FME\Transformers;C:\apps\FME\transformers;C:\Users\Monodo\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for coordinate systems are : C:\Users\Monodo\Documents\FME\CoordinateSystems
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for coordinate system exceptions are : C:\Users\Monodo\Documents\FME\CoordinateSystemExceptions
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for coordinate system grid overrides are : C:\Users\Monodo\Documents\FME\CoordinateSystemGridOverrides
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for CS-MAP transformation exceptions are : C:\Users\Monodo\Documents\FME\CsmapTransformationExceptions
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Shared directories for transformer categories are : C:\Users\Monodo\Documents\FME\TransformerCategories
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Current working directory is `C:\OSGeo4W\apache\htdocs\lidaviewer\fme'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Temporary directory is `C:\Users\Monodo\AppData\Local\Temp'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\apps\FME\'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\OSGeo4W\apache\htdocs\lidaviewer\fme/'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'las_shape2las.fmw'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is '2013 SP1'
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|System Status: 107321MB of disk space available in the FME temporary directory (C:\Users\Monodo\AppData\Local\Temp\)
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|System Status: 3911MB of virtual memory available
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 7 64-bit Service Pack 1 (Build 7601)
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Platform: WIN32
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Locale: fr_CH
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - latin I)
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Process limit is 4095 MB (out of 8142 MB physical memory and 4095 MB address space)
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2895 MB of memory or 3495 MB of address space
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 2171 MB of memory and 2621 MB of address space
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|FME Configuration: Autodetermining optimal maximum number of objects in memory
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding CSV Reader with keyword CSV_1
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding LAS Reader with keyword LAS_1
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SHAPE Reader with keyword SHAPE_1
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding LAS Reader with keyword LAS_2
+2014-03-12 11:04:28|   0.1|  0.0|INFORM|Using Multi Reader $Revision: 93943 $ ( $Date: 2012-10-30 14:39:34 -0700 (Tue, 30 Oct 2012) $ ) with keyword `MULTI_READER' to read multiple datasets
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Loaded module 'CSV' from file 'C:\apps\FME\plugins/CSV.dll'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|FME API version of module 'CSV' matches current internal version (3.7 20121025)
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Opening CSV files in directory `C:\Projets\LiDARViewer\data/\'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Using MultiWriter $Revision: 59162 $ ( $Date: 2009-04-07 10:04:59 -0700 (Tue, 07 Apr 2009) $ ) with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\apps\FME\plugins/LogCount_func.dll'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.7 20121025)
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file 'C:\apps\FME\plugins/RasterClippingFactory.dll'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.7 20121025)
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file 'C:\apps\FME\plugins/SolidIntersectionFactory.dll'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.7 20121025)
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Separator Character: ' '
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Skip Duplicate Delimiters: no
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Strip Quotes From Fields: yes
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: File Has Field Names: no
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Field Names Follow Header: no
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Number of Lines to Skip: 0
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Number of Footer Lines to Skip: 0
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Allowing Spaces in Column Names: yes
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|CSV Reader: Opening dataset 'C:\Projets\LiDARViewer\data\1164212.asc'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Using Tabular Reader $Revision: 90193 $ ( $Date: 2012-06-28 09:00:27 -0700 (Thu, 28 Jun 2012) $ ) to read files from directory `C:\Projets\LiDARViewer\data'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Stripping quotes around fields in CSV File `C:\Projets\LiDARViewer\data\1164212.asc'
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Opened Separated Value File C:\Projets\LiDARViewer\data\1164212.asc for input with delimiter ` '
+2014-03-12 11:04:28|   0.2|  0.0|INFORM|Reading source feature # 2500
+2014-03-12 11:04:29|   0.3|  0.0|INFORM|Reading source feature # 5000
+2014-03-12 11:04:29|   0.3|  0.0|INFORM|Reading source feature # 7500
+2014-03-12 11:04:29|   0.4|  0.0|INFORM|Reading source feature # 10000
+2014-03-12 11:04:29|   0.4|  0.0|INFORM|Reading source feature # 12500
+2014-03-12 11:04:29|   0.5|  0.0|INFORM|Reading source feature # 15000
+2014-03-12 11:04:29|   0.5|  0.0|INFORM|Reading source feature # 17500
+2014-03-12 11:04:29|   0.6|  0.0|INFORM|Reading source feature # 20000
+2014-03-12 11:04:29|   0.6|  0.0|INFORM|Reading source feature # 22500
+2014-03-12 11:04:29|   0.6|  0.0|INFORM|Reading source feature # 25000
+2014-03-12 11:04:29|   0.7|  0.0|INFORM|Reading source feature # 27500
+2014-03-12 11:04:29|   0.7|  0.0|INFORM|Reading source feature # 30000
+2014-03-12 11:04:29|   0.8|  0.0|INFORM|Reading source feature # 32500
+2014-03-12 11:04:29|   0.8|  0.0|INFORM|Reading source feature # 35000
+2014-03-12 11:04:29|   0.9|  0.0|INFORM|Reading source feature # 37500
+2014-03-12 11:04:29|   0.9|  0.0|INFORM|Reading source feature # 40000
+2014-03-12 11:04:29|   1.0|  0.0|INFORM|Reading source feature # 42500
+2014-03-12 11:04:29|   1.0|  0.0|INFORM|Reading source feature # 45000
+2014-03-12 11:04:29|   1.0|  0.0|INFORM|Reading source feature # 47500
+2014-03-12 11:04:29|   1.1|  0.0|INFORM|Reading source feature # 50000
+2014-03-12 11:04:29|   1.1|  0.0|INFORM|Reading source feature # 52500
+2014-03-12 11:04:29|   1.2|  0.0|INFORM|Reading source feature # 55000
+2014-03-12 11:04:29|   1.2|  0.0|INFORM|Reading source feature # 57500
+2014-03-12 11:04:29|   1.3|  0.0|INFORM|Reading source feature # 60000
+2014-03-12 11:04:30|   1.3|  0.0|INFORM|Reading source feature # 62500
+2014-03-12 11:04:30|   1.4|  0.0|INFORM|Reading source feature # 65000
+2014-03-12 11:04:30|   1.4|  0.0|INFORM|Reading source feature # 67500
+2014-03-12 11:04:30|   1.5|  0.0|INFORM|Reading source feature # 70000
+2014-03-12 11:04:30|   1.5|  0.0|INFORM|Reading source feature # 72500
+2014-03-12 11:04:30|   1.5|  0.0|INFORM|Reading source feature # 75000
+2014-03-12 11:04:30|   1.6|  0.0|INFORM|Reading source feature # 77500
+2014-03-12 11:04:30|   1.6|  0.0|INFORM|Reading source feature # 80000
+2014-03-12 11:04:30|   1.7|  0.0|INFORM|Reading source feature # 82500
+2014-03-12 11:04:30|   1.7|  0.0|INFORM|Reading source feature # 85000
+2014-03-12 11:04:30|   1.8|  0.0|INFORM|Reading source feature # 87500
+2014-03-12 11:04:30|   1.8|  0.0|INFORM|Reading source feature # 90000
+2014-03-12 11:04:30|   1.9|  0.0|INFORM|Reading source feature # 92500
+2014-03-12 11:04:30|   1.9|  0.0|INFORM|Reading source feature # 95000
+2014-03-12 11:04:30|   1.9|  0.0|INFORM|Reading source feature # 97500
+2014-03-12 11:04:30|   2.0|  0.0|INFORM|Reading source feature # 100000
+2014-03-12 11:04:30|   2.0|  0.0|INFORM|Reading source feature # 102500
+2014-03-12 11:04:30|   2.1|  0.0|INFORM|Reading source feature # 105000
+2014-03-12 11:04:30|   2.1|  0.0|INFORM|Reading source feature # 107500
+2014-03-12 11:04:30|   2.2|  0.0|INFORM|Reading source feature # 110000
+2014-03-12 11:04:30|   2.2|  0.0|INFORM|Reading source feature # 112500
+2014-03-12 11:04:30|   2.2|  0.0|INFORM|Reading source feature # 115000
+2014-03-12 11:04:31|   2.3|  0.0|INFORM|Reading source feature # 117500
+2014-03-12 11:04:31|   2.3|  0.0|INFORM|Reading source feature # 120000
+2014-03-12 11:04:31|   2.4|  0.0|INFORM|Reading source feature # 122500
+2014-03-12 11:04:31|   2.4|  0.0|INFORM|Reading source feature # 125000
+2014-03-12 11:04:31|   2.5|  0.0|INFORM|Reading source feature # 127500
+2014-03-12 11:04:31|   2.5|  0.0|INFORM|Reading source feature # 130000
+2014-03-12 11:04:31|   2.6|  0.0|INFORM|Reading source feature # 132500
+2014-03-12 11:04:31|   2.6|  0.0|INFORM|Reading source feature # 135000
+2014-03-12 11:04:31|   2.7|  0.0|INFORM|Reading source feature # 137500
+2014-03-12 11:04:31|   2.7|  0.0|INFORM|Reading source feature # 140000
+2014-03-12 11:04:31|   2.7|  0.0|INFORM|Reading source feature # 142500
+2014-03-12 11:04:31|   2.8|  0.0|INFORM|Reading source feature # 145000
+2014-03-12 11:04:31|   2.8|  0.0|INFORM|Reading source feature # 147500
+2014-03-12 11:04:31|   2.9|  0.0|INFORM|Reading source feature # 150000
+2014-03-12 11:04:31|   2.9|  0.0|INFORM|Reading source feature # 152500
+2014-03-12 11:04:31|   2.9|  0.0|INFORM|Reading source feature # 155000
+2014-03-12 11:04:31|   3.0|  0.0|INFORM|Reading source feature # 157500
+2014-03-12 11:04:31|   3.0|  0.0|INFORM|Reading source feature # 160000
+2014-03-12 11:04:31|   3.1|  0.0|INFORM|Reading source feature # 162500
+2014-03-12 11:04:31|   3.1|  0.0|INFORM|Reading source feature # 165000
+2014-03-12 11:04:31|   3.2|  0.0|INFORM|Reading source feature # 167500
+2014-03-12 11:04:31|   3.2|  0.0|INFORM|Reading source feature # 170000
+2014-03-12 11:04:32|   3.3|  0.0|INFORM|Reading source feature # 172500
+2014-03-12 11:04:32|   3.3|  0.0|INFORM|Reading source feature # 175000
+2014-03-12 11:04:32|   3.3|  0.0|INFORM|Reading source feature # 177500
+2014-03-12 11:04:32|   3.4|  0.0|INFORM|Reading source feature # 180000
+2014-03-12 11:04:32|   3.4|  0.0|INFORM|Reading source feature # 182500
+2014-03-12 11:04:32|   3.5|  0.0|INFORM|Reading source feature # 185000
+2014-03-12 11:04:32|   3.5|  0.0|INFORM|Reading source feature # 187500
+2014-03-12 11:04:32|   3.6|  0.0|INFORM|Reading source feature # 190000
+2014-03-12 11:04:32|   3.6|  0.0|INFORM|Reading source feature # 192500
+2014-03-12 11:04:32|   3.7|  0.0|INFORM|Reading source feature # 195000
+2014-03-12 11:04:32|   3.7|  0.0|INFORM|Reading source feature # 197500
+2014-03-12 11:04:32|   3.7|  0.0|INFORM|Reading source feature # 200000
+2014-03-12 11:04:32|   3.8|  0.0|INFORM|Reading source feature # 202500
+2014-03-12 11:04:32|   3.8|  0.0|INFORM|Reading source feature # 205000
+2014-03-12 11:04:32|   3.9|  0.0|INFORM|Reading source feature # 207500
+2014-03-12 11:04:32|   3.9|  0.0|INFORM|Reading source feature # 210000
+2014-03-12 11:04:32|   4.0|  0.0|INFORM|Reading source feature # 212500
+2014-03-12 11:04:32|   4.0|  0.0|INFORM|Reading source feature # 215000
+2014-03-12 11:04:32|   4.1|  0.0|INFORM|Reading source feature # 217500
+2014-03-12 11:04:32|   4.1|  0.0|INFORM|Reading source feature # 220000
+2014-03-12 11:04:32|   4.1|  0.0|INFORM|Reading source feature # 222500
+2014-03-12 11:04:32|   4.2|  0.0|INFORM|Reading source feature # 225000
+2014-03-12 11:04:32|   4.2|  0.0|INFORM|Reading source feature # 227500
+2014-03-12 11:04:33|   4.3|  0.0|INFORM|Reading source feature # 230000
+2014-03-12 11:04:33|   4.3|  0.0|INFORM|Reading source feature # 232500
+2014-03-12 11:04:33|   4.4|  0.0|INFORM|Reading source feature # 235000
+2014-03-12 11:04:33|   4.4|  0.0|INFORM|Reading source feature # 237500
+2014-03-12 11:04:33|   4.5|  0.0|INFORM|Reading source feature # 240000
+2014-03-12 11:04:33|   4.5|  0.0|INFORM|Reading source feature # 242500
+2014-03-12 11:04:33|   4.5|  0.0|INFORM|Reading source feature # 245000
+2014-03-12 11:04:33|   4.6|  0.0|INFORM|Reading source feature # 247500
+2014-03-12 11:04:33|   4.6|  0.0|INFORM|Reading source feature # 250000
+2014-03-12 11:04:33|   4.7|  0.0|INFORM|Reading source feature # 252500
+2014-03-12 11:04:33|   4.7|  0.0|INFORM|Reading source feature # 255000
+2014-03-12 11:04:33|   4.8|  0.0|INFORM|Reading source feature # 257500
+2014-03-12 11:04:33|   4.8|  0.0|INFORM|Reading source feature # 260000
+2014-03-12 11:04:33|   4.9|  0.0|INFORM|Reading source feature # 262500
+2014-03-12 11:04:33|   4.9|  0.0|INFORM|Reading source feature # 265000
+2014-03-12 11:04:33|   4.9|  0.0|INFORM|Reading source feature # 267500
+2014-03-12 11:04:33|   5.0|  0.0|INFORM|Reading source feature # 270000
+2014-03-12 11:04:33|   5.0|  0.0|INFORM|Reading source feature # 272500
+2014-03-12 11:04:33|   5.1|  0.0|INFORM|Reading source feature # 275000
+2014-03-12 11:04:33|   5.1|  0.0|INFORM|Reading source feature # 277500
+2014-03-12 11:04:33|   5.2|  0.0|INFORM|Reading source feature # 280000
+2014-03-12 11:04:33|   5.2|  0.0|INFORM|Reading source feature # 282500
+2014-03-12 11:04:34|   5.3|  0.0|INFORM|Reading source feature # 285000
+2014-03-12 11:04:34|   5.3|  0.0|INFORM|Reading source feature # 287500
+2014-03-12 11:04:34|   5.4|  0.0|INFORM|Reading source feature # 290000
+2014-03-12 11:04:34|   5.4|  0.0|INFORM|Reading source feature # 292500
+2014-03-12 11:04:34|   5.4|  0.0|INFORM|Reading source feature # 295000
+2014-03-12 11:04:34|   5.5|  0.0|INFORM|Reading source feature # 297500
+2014-03-12 11:04:34|   5.5|  0.0|INFORM|Reading source feature # 300000
+2014-03-12 11:04:34|   5.6|  0.0|INFORM|Reading source feature # 302500
+2014-03-12 11:04:34|   5.6|  0.0|INFORM|Reading source feature # 305000
+2014-03-12 11:04:34|   5.7|  0.0|INFORM|Reading source feature # 307500
+2014-03-12 11:04:34|   5.7|  0.0|INFORM|Reading source feature # 310000
+2014-03-12 11:04:34|   5.8|  0.0|INFORM|Reading source feature # 312500
+2014-03-12 11:04:34|   5.8|  0.0|INFORM|Reading source feature # 315000
+2014-03-12 11:04:34|   5.9|  0.0|INFORM|Reading source feature # 317500
+2014-03-12 11:04:34|   5.9|  0.0|INFORM|Reading source feature # 320000
+2014-03-12 11:04:34|   5.9|  0.0|INFORM|Reading source feature # 322500
+2014-03-12 11:04:34|   6.0|  0.0|INFORM|Reading source feature # 325000
+2014-03-12 11:04:34|   6.0|  0.0|INFORM|Reading source feature # 327500
+2014-03-12 11:04:34|   6.1|  0.0|INFORM|Reading source feature # 330000
+2014-03-12 11:04:34|   6.1|  0.0|INFORM|Reading source feature # 332500
+2014-03-12 11:04:34|   6.2|  0.0|INFORM|Reading source feature # 335000
+2014-03-12 11:04:34|   6.2|  0.0|INFORM|Reading source feature # 337500
+2014-03-12 11:04:35|   6.2|  0.0|INFORM|Reading source feature # 340000
+2014-03-12 11:04:35|   6.3|  0.0|INFORM|Reading source feature # 342500
+2014-03-12 11:04:35|   6.3|  0.0|INFORM|Reading source feature # 345000
+2014-03-12 11:04:35|   6.4|  0.0|INFORM|Reading source feature # 347500
+2014-03-12 11:04:35|   6.4|  0.0|INFORM|Reading source feature # 350000
+2014-03-12 11:04:35|   6.5|  0.0|INFORM|Reading source feature # 352500
+2014-03-12 11:04:35|   6.5|  0.0|INFORM|Reading source feature # 355000
+2014-03-12 11:04:35|   6.6|  0.0|INFORM|Reading source feature # 357500
+2014-03-12 11:04:35|   6.6|  0.0|INFORM|Reading source feature # 360000
+2014-03-12 11:04:35|   6.6|  0.0|INFORM|Reading source feature # 362500
+2014-03-12 11:04:35|   6.7|  0.0|INFORM|Reading source feature # 365000
+2014-03-12 11:04:35|   6.7|  0.0|INFORM|Reading source feature # 367500
+2014-03-12 11:04:35|   6.8|  0.0|INFORM|Reading source feature # 370000
+2014-03-12 11:04:35|   6.8|  0.0|INFORM|Reading source feature # 372500
+2014-03-12 11:04:35|   6.9|  0.0|INFORM|Reading source feature # 375000
+2014-03-12 11:04:35|   6.9|  0.0|INFORM|Reading source feature # 377500
+2014-03-12 11:04:35|   7.0|  0.0|INFORM|Reading source feature # 380000
+2014-03-12 11:04:35|   7.0|  0.0|INFORM|Reading source feature # 382500
+2014-03-12 11:04:35|   7.1|  0.0|INFORM|Reading source feature # 385000
+2014-03-12 11:04:35|   7.1|  0.0|INFORM|Reading source feature # 387500
+2014-03-12 11:04:35|   7.1|  0.0|INFORM|Reading source feature # 390000
+2014-03-12 11:04:35|   7.2|  0.0|INFORM|Reading source feature # 392500
+2014-03-12 11:04:35|   7.2|  0.0|INFORM|Reading source feature # 395000
+2014-03-12 11:04:36|   7.3|  0.0|INFORM|Reading source feature # 397500
+2014-03-12 11:04:36|   7.3|  0.0|INFORM|Reading source feature # 400000
+2014-03-12 11:04:36|   7.4|  0.0|INFORM|Reading source feature # 402500
+2014-03-12 11:04:36|   7.4|  0.0|INFORM|Reading source feature # 405000
+2014-03-12 11:04:36|   7.5|  0.0|INFORM|Reading source feature # 407500
+2014-03-12 11:04:36|   7.5|  0.0|INFORM|Reading source feature # 410000
+2014-03-12 11:04:36|   7.6|  0.0|INFORM|Reading source feature # 412500
+2014-03-12 11:04:36|   7.6|  0.0|INFORM|Reading source feature # 415000
+2014-03-12 11:04:36|   7.6|  0.0|INFORM|Reading source feature # 417500
+2014-03-12 11:04:36|   7.7|  0.0|INFORM|Reading source feature # 420000
+2014-03-12 11:04:36|   7.7|  0.0|INFORM|Reading source feature # 422500
+2014-03-12 11:04:36|   7.8|  0.0|INFORM|Reading source feature # 425000
+2014-03-12 11:04:36|   7.8|  0.0|INFORM|Reading source feature # 427500
+2014-03-12 11:04:36|   7.9|  0.0|INFORM|Reading source feature # 430000
+2014-03-12 11:04:36|   7.9|  0.0|INFORM|Reading source feature # 432500
+2014-03-12 11:04:36|   7.9|  0.0|INFORM|Reading source feature # 435000
+2014-03-12 11:04:36|   8.0|  0.0|INFORM|Reading source feature # 437500
+2014-03-12 11:04:36|   8.0|  0.0|INFORM|Reading source feature # 440000
+2014-03-12 11:04:36|   8.1|  0.0|INFORM|Reading source feature # 442500
+2014-03-12 11:04:36|   8.1|  0.0|INFORM|Reading source feature # 445000
+2014-03-12 11:04:36|   8.2|  0.0|INFORM|Reading source feature # 447500
+2014-03-12 11:04:36|   8.2|  0.0|INFORM|Reading source feature # 450000
+2014-03-12 11:04:37|   8.3|  0.0|INFORM|Reading source feature # 452500
+2014-03-12 11:04:37|   8.3|  0.0|INFORM|Reading source feature # 455000
+2014-03-12 11:04:37|   8.3|  0.0|INFORM|Reading source feature # 457500
+2014-03-12 11:04:37|   8.4|  0.0|INFORM|Reading source feature # 460000
+2014-03-12 11:04:37|   8.4|  0.0|INFORM|Reading source feature # 462500
+2014-03-12 11:04:37|   8.5|  0.0|INFORM|Reading source feature # 465000
+2014-03-12 11:04:37|   8.5|  0.0|INFORM|Reading source feature # 467500
+2014-03-12 11:04:37|   8.6|  0.0|INFORM|Reading source feature # 470000
+2014-03-12 11:04:37|   8.6|  0.0|INFORM|Reading source feature # 472500
+2014-03-12 11:04:37|   8.7|  0.0|INFORM|Reading source feature # 475000
+2014-03-12 11:04:37|   8.7|  0.0|INFORM|Reading source feature # 477500
+2014-03-12 11:04:37|   8.7|  0.0|INFORM|Reading source feature # 480000
+2014-03-12 11:04:37|   8.8|  0.0|INFORM|Reading source feature # 482500
+2014-03-12 11:04:37|   8.8|  0.0|INFORM|Reading source feature # 485000
+2014-03-12 11:04:37|   8.9|  0.0|INFORM|Reading source feature # 487500
+2014-03-12 11:04:37|   8.9|  0.0|INFORM|Reading source feature # 490000
+2014-03-12 11:04:37|   9.0|  0.0|INFORM|Reading source feature # 492500
+2014-03-12 11:04:37|   9.0|  0.0|INFORM|Reading source feature # 495000
+2014-03-12 11:04:37|   9.1|  0.0|INFORM|Reading source feature # 497500
+2014-03-12 11:04:37|   9.1|  0.0|INFORM|Reading source feature # 500000
+2014-03-12 11:04:37|   9.1|  0.0|INFORM|Reading source feature # 502500
+2014-03-12 11:04:37|   9.2|  0.0|INFORM|Reading source feature # 505000
+2014-03-12 11:04:38|   9.2|  0.0|INFORM|Reading source feature # 507500
+2014-03-12 11:04:38|   9.3|  0.0|INFORM|Reading source feature # 510000
+2014-03-12 11:04:38|   9.3|  0.0|INFORM|Reading source feature # 512500
+2014-03-12 11:04:38|   9.4|  0.0|INFORM|Reading source feature # 515000
+2014-03-12 11:04:38|   9.4|  0.0|INFORM|Reading source feature # 517500
+2014-03-12 11:04:38|   9.5|  0.0|INFORM|Reading source feature # 520000
+2014-03-12 11:04:38|   9.5|  0.0|INFORM|Reading source feature # 522500
+2014-03-12 11:04:38|   9.5|  0.0|INFORM|Reading source feature # 525000
+2014-03-12 11:04:38|   9.6|  0.0|INFORM|Reading source feature # 527500
+2014-03-12 11:04:38|   9.6|  0.0|INFORM|Reading source feature # 530000
+2014-03-12 11:04:38|   9.7|  0.0|INFORM|Reading source feature # 532500
+2014-03-12 11:04:38|   9.7|  0.0|INFORM|Reading source feature # 535000
+2014-03-12 11:04:38|   9.8|  0.0|INFORM|Reading source feature # 537500
+2014-03-12 11:04:38|   9.8|  0.0|INFORM|Reading source feature # 540000
+2014-03-12 11:04:38|   9.9|  0.0|INFORM|Reading source feature # 542500
+2014-03-12 11:04:38|   9.9|  0.0|INFORM|Reading source feature # 545000
+2014-03-12 11:04:38|  10.0|  0.0|INFORM|Reading source feature # 547500
+2014-03-12 11:04:38|  10.0|  0.0|INFORM|Reading source feature # 550000
+2014-03-12 11:04:38|  10.0|  0.0|INFORM|Reading source feature # 552500
+2014-03-12 11:04:38|  10.1|  0.0|INFORM|Reading source feature # 555000
+2014-03-12 11:04:38|  10.1|  0.0|INFORM|Reading source feature # 557500
+2014-03-12 11:04:38|  10.2|  0.0|INFORM|Reading source feature # 560000
+2014-03-12 11:04:38|  10.2|  0.0|INFORM|Reading source feature # 562500
+2014-03-12 11:04:39|  10.3|  0.0|INFORM|Reading source feature # 565000
+2014-03-12 11:04:39|  10.3|  0.0|INFORM|Reading source feature # 567500
+2014-03-12 11:04:39|  10.4|  0.0|INFORM|Reading source feature # 570000
+2014-03-12 11:04:39|  10.4|  0.0|INFORM|Reading source feature # 572500
+2014-03-12 11:04:39|  10.4|  0.0|INFORM|Reading source feature # 575000
+2014-03-12 11:04:39|  10.5|  0.0|INFORM|Reading source feature # 577500
+2014-03-12 11:04:39|  10.5|  0.0|INFORM|Reading source feature # 580000
+2014-03-12 11:04:39|  10.6|  0.0|INFORM|Reading source feature # 582500
+2014-03-12 11:04:39|  10.6|  0.0|INFORM|Reading source feature # 585000
+2014-03-12 11:04:39|  10.7|  0.0|INFORM|Reading source feature # 587500
+2014-03-12 11:04:39|  10.7|  0.0|INFORM|Reading source feature # 590000
+2014-03-12 11:04:39|  10.7|  0.0|INFORM|Reading source feature # 592500
+2014-03-12 11:04:39|  10.8|  0.0|INFORM|Reading source feature # 595000
+2014-03-12 11:04:39|  10.8|  0.0|INFORM|Reading source feature # 597500
+2014-03-12 11:04:39|  10.9|  0.0|INFORM|Reading source feature # 600000
+2014-03-12 11:04:39|  10.9|  0.0|INFORM|Reading source feature # 602500
+2014-03-12 11:04:39|  11.0|  0.0|INFORM|Reading source feature # 605000
+2014-03-12 11:04:39|  11.0|  0.0|INFORM|Reading source feature # 607500
+2014-03-12 11:04:39|  11.1|  0.0|INFORM|Reading source feature # 610000
+2014-03-12 11:04:39|  11.1|  0.0|INFORM|Reading source feature # 612500
+2014-03-12 11:04:39|  11.2|  0.0|INFORM|Reading source feature # 615000
+2014-03-12 11:04:39|  11.2|  0.0|INFORM|Reading source feature # 617500
+2014-03-12 11:04:40|  11.3|  0.0|INFORM|Reading source feature # 620000
+2014-03-12 11:04:40|  11.3|  0.0|INFORM|Reading source feature # 622500
+2014-03-12 11:04:40|  11.4|  0.0|INFORM|Reading source feature # 625000
+2014-03-12 11:04:40|  11.4|  0.0|INFORM|Reading source feature # 627500
+2014-03-12 11:04:40|  11.4|  0.0|INFORM|Reading source feature # 630000
+2014-03-12 11:04:40|  11.5|  0.0|INFORM|Reading source feature # 632500
+2014-03-12 11:04:40|  11.5|  0.0|INFORM|Reading source feature # 635000
+2014-03-12 11:04:40|  11.6|  0.0|INFORM|Reading source feature # 637500
+2014-03-12 11:04:40|  11.6|  0.0|INFORM|Reading source feature # 640000
+2014-03-12 11:04:40|  11.7|  0.0|INFORM|Reading source feature # 642500
+2014-03-12 11:04:40|  11.7|  0.0|INFORM|Reading source feature # 645000
+2014-03-12 11:04:40|  11.7|  0.0|INFORM|Reading source feature # 647500
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|CSV Reader: Closing dataset 'C:\Projets\LiDARViewer\data\1164212.asc'
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|CSV Reader: Done reading CSV files in directory `C:\Projets\LiDARViewer\data/\'
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|Loaded module 'LAS' from file 'C:\apps\FME\LIDAR_FME.dll'
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|Using Shape Reader $Revision: 102018 $ ( $Date: 2013-02-28 14:10:18 -0800 (Thu, 28 Feb 2013) $ ) to read shape files from directory `C:\OSGeo4W\apache\htdocs\lidaviewer\data/'
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|SHAPE_1 Reader: Using enhanced geometry
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|Shape Reader: Allowing attribute names with mixed case
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|Opened Shape File C:\OSGeo4W\apache\htdocs\lidaviewer\data\small_clip.shp for input
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|Opened DBF File 'C:\OSGeo4W\apache\htdocs\lidaviewer\data\small_clip.dbf' for input
+2014-03-12 11:04:40|  11.8|  0.0|INFORM|DBF File 'C:\OSGeo4W\apache\htdocs\lidaviewer\data\small_clip.dbf' has fields: id number(10,0)
+2014-03-12 11:04:40|  12.1|  0.2|INFORM|The OGC definition of the FME coordinate system '_FME_0' is 'PROJCS["CH1903_LV03",GEOGCS["GCS_CH1903",DATUM["D_CH1903",SPHEROID["Bessel_1841",6377397.155,299.1528128]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.95240555555556],PARAMETER["longitude_of_center",7.439583333333333],PARAMETER["azimuth",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",600000],PARAMETER["false_northing",200000],UNIT["Meter",1]]'
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader SHAPE_1[SHAPE] set to `_FME_0' as read from input data
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|Coordinate System `_FME_0' parameters: CS_NAME=`_FME_0' DESC_NM=`CH1903_LV03' DT_NAME=`CH1903/GSB' ESRI_WKT=`PROJCS["CH1903_LV03",GEOGCS["GCS_CH1903",DATUM["D_CH1903",SPHEROID["Bessel_1841",6377397.155,299.1528128]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.95240555555556],PARAMETER["longitude_of_center",7.439583333333333],PARAMETER["azimuth",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",600000],PARAMETER["false_northing",200000],UNIT["Meter",1]]' PARM1=`7.439583333333333' PARM2=`46.95240555555556' PARM3=`90' PROJ=`HOM1XY' SCL_RED=`1.0000000000' UNIT=`METER' X_OFF=`600000' Y_OFF=`200000' 
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|Shape Reader: Bounding box of shapefile `C:\OSGeo4W\apache\htdocs\lidaviewer\data\SMALL_CLIP' is: (562075.013558256,204892.576710477),(562164.723178877,204965.639185003)
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|Shape Reader: Bounding box of shapefile(s) selected from directory `C:\OSGeo4W\apache\htdocs\lidaviewer\data/' is: (562075.013558256,204892.576710477),(562164.723178877,204965.639185003)
+2014-03-12 11:04:40|  12.1|  0.0|WARN  |Clipper_Vector(ClippingFactory): MERGE_CLIPPER_ATTRIBUTES is not specified; CLIPPER_ATTR_PREFIX will be ignored
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `LAS'
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 647733 features from 4 readers
+2014-03-12 11:04:40|  12.1|  0.0|INFORM|Emptying factory pipeline
+2014-03-12 11:04:40|  12.1|  0.0|STATS |Unexpected Input Remover(TestFactory): Tested 647733 input feature(s) -- 2 feature(s) passed and 647731 feature(s) failed
+2014-03-12 11:04:40|  12.1|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 647731 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |Source -> Generic(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |small_clip Feature Counter -1 28(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |1164212 Feature Counter -1 12(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |LAS (LAS_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |LAS_LAS_1 Feature Counter -1 21(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |LAS (LAS_2) Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |LAS_LAS_2 Feature Counter -1 27(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |Clipper_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2014-03-12 11:04:40|  12.1|  0.0|STATS |Clipper_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-03-12 11:04:40|  12.1|  0.0|STATS |Clipper_ClippeeFilter(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2014-03-12 11:04:41|  12.3|  0.2|STATS |Clipper_Vector(ClippingFactory): Processed 1 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2014-03-12 11:04:41|  12.3|  0.0|STATS |Clipper_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |Clipper_INSIDE Feature Counter -1 30(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |PointCloudPropertyExtractor (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |PointCloudPropertyExtractor_OUTPUT Feature Counter -1 23(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |PointCloudPropertyExtractor_OUTPUT (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |1164212 -> demo Correlator(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |Clipper_INSIDE -> NewFeatureType Correlator(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|STATS |Final Output Feature Type Router(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2014-03-12 11:04:41|  12.3|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `LAS'
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|FME Configuration: Destination coordinate system set to `CH1903.LV03_swisstopo'
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|Coordinate System `CH1903.LV03_swisstopo' parameters: CS_NAME=`CH1903.LV03_swisstopo' DESC_NM=`CH1903 / LV03' DT_NAME=`CH1903_via_epsg_1509' GROUP=`SWITZERLAND' MAP_SCL=`1' ORG_LAT=`46.9524055555556' ORG_LNG=`7.43958333333333' PROJ=`SWISS' QUAD=`1' SCL_RED=`1' SOURCE=`swisstopo' UNIT=`Meter' X_OFF=`600000' Y_OFF=`200000' ZERO_X=`0.0001' ZERO_Y=`0.0001' 
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|Writer `LAS_3' of type `LAS' using group definition keyword `LAS_3_DEF'
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|FME API version of module 'LAS' matches current internal version (3.7 20121025)
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|LAS writer: Directive '_VERSION' has the value '1.2'
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|LAS writer: Directive '_COMPRESSION' has the value 'No'
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|LAS writer: Directive '_RESCALE_COORDINATES' has the value 'Yes'
+2014-03-12 11:04:41|  12.3|  0.0|INFORM|LAS writer: Writing point cloud with 51030 point(s) to file 'C:\OSGeo4W\apache\htdocs\lidaviewer\data\out\1164212.las'
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 0 
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|Feature output statistics for `LAS' writer using keyword `LAS_3':
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |                               Features Written
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |1164212                                                                      1
+2014-03-12 11:04:41|  12.4|  0.0|STATS |==============================================================================
+2014-03-12 11:04:41|  12.4|  0.0|STATS |Total Features Written                                                       1
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 1 feature(s) 
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |                            Features Read Summary
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |1164212                                                                 647730
+2014-03-12 11:04:41|  12.4|  0.0|STATS |LAS                                                                          2
+2014-03-12 11:04:41|  12.4|  0.0|STATS |small_clip                                                                   1
+2014-03-12 11:04:41|  12.4|  0.0|STATS |==============================================================================
+2014-03-12 11:04:41|  12.4|  0.0|STATS |Total Features Read                                                     647733
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |                           Features Written Summary
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|STATS |1164212                                                                      1
+2014-03-12 11:04:41|  12.4|  0.0|STATS |==============================================================================
+2014-03-12 11:04:41|  12.4|  0.0|STATS |Total Features Written                                                       1
+2014-03-12 11:04:41|  12.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (1 feature(s) output)
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|FME Session Duration: 12.4 seconds. (CPU: 12.1s user, 0.2s system)
+2014-03-12 11:04:41|  12.4|  0.0|INFORM|END - ProcessID: 5244, peak process memory usage: 82544 kB, current process memory usage: 71556 kB
