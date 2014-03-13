@@ -4,13 +4,13 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
         <title>HEIG-VD / SITN LiDAR Point Cloud 3D Visualization application</title>
         <!-- Style sheets -->
-        <link rel="stylesheet" href="/lidaviewer/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
                 
         <!-- Javascript librairies -->
-		<script type="text/javascript" src="/lidaviewer/js/lib/threejs/build/three.js"></script>
-        <!-- <script type="text/javascript" src="/lidaviewer/js/lib/jquery/jquery-1.11.0.js"></script> -->
-		<script src="/lidaviewer/js/lib/detector/Detector.js"></script>
-		<script src="/lidaviewer/js/pclidarviewer.js"></script>
+		<script type="text/javascript" src="js/lib/threejs/build/three.js"></script>
+        <!-- <script type="text/javascript" src="js/lib/jquery/jquery-1.11.0.js"></script> -->
+		<script src="js/lib/detector/Detector.js"></script>
+		<script src="js/pclidarviewer.js"></script>
 	</head>
 	<body>
         <!-- The div element containing the Thee scene -->
@@ -22,7 +22,7 @@
 			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
             
             // Create instance if our viewer
-            myViewer = new PCLVIEWER.Viewer('/lidaviewer/data/demo.xyz');
+            myViewer = new PCLVIEWER.Viewer('data/demo.xyz');
             
             // Start it !
             myViewer.startViewer();
